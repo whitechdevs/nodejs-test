@@ -5,7 +5,7 @@
 Your task is to build a Nodejs + GraphQL powered service to:
 
 - Create a GraphQL powered api with MySql as the datasource
-- The GraphQL should provide required Queries, Mutations CRUD operations for Product (See Schema: )
+- The GraphQL should provide required Queries, Mutations CRUD operations for Product (See Schema: [GraphQL Object](https://raw.githubusercontent.com/whitechdevs/nodejs-test/master/GraphQLProductObjectSample.md "GraphQL Object"))
 - The entire stack needs to be dockerised including the application and the datasource to launch it on demand.
 
 ## Requirements
@@ -33,6 +33,6 @@ yarn docker-test # Runs unit tests inside a Docker container
 docker-compose up
 ```
 
-## Product Schema
+## Product Schema Sample
 
-API Endpoint: `https://whitechdevs.github.io/reactjs-test/products.json`
+Sample GraphQL Product Schema:  [GraphQL Object](https://raw.githubusercontent.com/whitechdevs/nodejs-test/master/GraphQLProductObjectSample.md "GraphQL Object")
