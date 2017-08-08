@@ -15,6 +15,7 @@ Your task is to build a Nodejs + GraphQL powered service to:
 - GraphQL with MySql
 - Good code quality
 - 100% Test coverage
+- Ideally surprise us!
 
 ## Notes
 
