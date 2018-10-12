@@ -2,7 +2,7 @@
 
 > A simple test to show us how awesome you are!
 
-Your task is to build a Nodejs powered service to:
+Your task is to build a NodeJS powered service to:
 
 - Create an express API service with MySQL as the datasource
 - The entire stack needs to be dockerised (Application container and Database container).
@@ -20,7 +20,7 @@ Your task is to build a Nodejs powered service to:
 
 - Feel free to use npm packages to help you achieve a result.
 - Use Docker Hub to host your docker files.
-- Feel free to document your approachs, what shortcomings or improvements that you encountered or have in mind while going through the process. This is not a mandatory requirement but will help us elevate your though process.
+- Feel free to document your approach, any shortcomings or improvements that you encountered or had in mind while going through the process. This is not a mandatory requirement but will help us elevate your though process.
 
 ## Deliverable
 
@@ -36,7 +36,7 @@ docker-compose up
 
 ## Product Sample
 
-The expected data returned is provided in the products.json.
+The expected data to be returned is provided in the products.json file.
 
-Feel free to create a schema in the way you believe best would suit the data.
+Feel free to create the schema in the way you believe would best suit the data requirements.
 
