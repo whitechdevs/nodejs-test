@@ -2,25 +2,25 @@
 
 > A simple test to show us how awesome you are!
 
-Your task is to build a Nodejs + GraphQL powered service to:
+Your task is to build a Nodejs powered service to:
 
-- Create a GraphQL powered api with MySql as the datasource
-- The GraphQL should provide required Queries, Mutations for CRUD operations on the Product object (See Schema: [GraphQL Object](https://github.com/whitechdevs/nodejs-test/blob/master/GraphQLProductObjectSample.js "GraphQL Object"))
-- The entire stack needs to be dockerised (Application container and Database container). 
+- Create an express API service with MySQL as the datasource
+- The entire stack needs to be dockerised (Application container and Database container).
 
 ## Requirements
 
-- Framework of your choice (E.g, ExpressJS)
+- ExpressJS
 - ES6 +
-- GraphQL with MySql
+- MySQL
 - Good code quality
-- 100% Test coverage
+- High Test coverage
 - Ideally surprise us!
 
 ## Notes
 
 - Feel free to use npm packages to help you achieve a result.
 - Use Docker Hub to host your docker files.
+- Feel free to document your approachs, what shortcomings or improvements that you encountered or have in mind while going through the process. This is not a mandatory requirement but will help us elevate your though process.
 
 ## Deliverable
 
@@ -34,6 +34,9 @@ yarn docker-test # Runs unit tests inside a Docker container
 docker-compose up
 ```
 
-## Product Schema Sample
+## Product Sample
 
-Sample GraphQL Product Schema:  [GraphQL Object](https://github.com/whitechdevs/nodejs-test/blob/master/GraphQLProductObjectSample.js "GraphQL Object")
+The expected data returned is provided in the products.json.
+
+Feel free to create a schema in the way you believe best would suit the data.
+
